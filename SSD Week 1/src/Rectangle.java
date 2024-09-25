@@ -1,14 +1,16 @@
 
 public class Rectangle extends Shape {
+	
 	private int height;
 	private int width;
+	private int area;
 	
 	Rectangle(int sides) {
 		super(sides);
-		
-		// TODO Auto-generated constructor stub
 	}
 	
+	
+	//setters and getters for height
 	public void setHeight(int height) {
 		this.height = height;
 	}
@@ -16,11 +18,19 @@ public class Rectangle extends Shape {
 	public int getHeight() {
 		return height;
 	}
+	
+	//setters and getters for width
+		public void setWidth(int width) {
+			this.width = width;
+		}
+		
+		public int getWidth() {
+			return height;
+		}
 
 	@Override
 	public int getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return area;
 	}
 
 }

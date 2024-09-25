@@ -2,6 +2,7 @@
 abstract class Shape {
 	
 	private int sides;
+	private int area;
 	
 	public int getSides() {
 		return sides;
@@ -16,4 +17,7 @@ abstract class Shape {
 	Shape(int sides) {
 		this.sides = sides;
 	}
+
+	
+	
 }

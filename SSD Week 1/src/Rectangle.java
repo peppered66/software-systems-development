@@ -30,5 +30,10 @@ public class Rectangle extends Shape {
 		this.area = height * width;
 		return area;
 	}
+	
+	//method to print data easily
+	public String toString() {
+		return "Sides " + super.getSides() + " height " + height + " width " + width + " area " + getArea();
+	}
 
 }

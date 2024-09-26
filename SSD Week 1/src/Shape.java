@@ -19,4 +19,7 @@ abstract class Shape {
 	//abstract method that's forced to be on subclasses
 	abstract public int getArea();
 	
+	//abstract method enforced on subclasses
+	abstract public String toString();
+	
 }

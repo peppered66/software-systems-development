@@ -1,4 +1,3 @@
-
 abstract class Shape {
 	//attributes
 	private int sides;

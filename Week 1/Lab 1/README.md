@@ -1,0 +1,2 @@
+This weeks program was quite simple and intended to be a refresher.
+It covered the core concepts of OOP that will be required throughout the module including encapsulation, inheritance, polymporphism, writing classes and objects.

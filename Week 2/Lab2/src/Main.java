@@ -4,7 +4,6 @@ public class Main {
 public static String input;
 
 	public static void main(String[] args) {
-		
 		//creating object whose methods will be used
 		WordProcessor wp1 = new WordProcessor();
 		//creating scanner and outputting message to user
@@ -16,11 +15,12 @@ public static String input;
 			input = scan.nextLine();
 			break;
 		}
-		
-		System.out.println(wp1.countWords(input));
-		System.out.println(wp1.countLetters(input));		
-		System.out.println(wp1.getLength(input));		
-
+		//running methods and printing data
+		wp1.setText("Null value...");
+		System.out.println("The word count is " + wp1.countWords(input));
+		System.out.println("The letter count is " + wp1.countLetters(input));		
+		System.out.println("The sentence length is " + wp1.getLength(input));		
+ 
 
 
 	}

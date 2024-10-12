@@ -4,7 +4,6 @@ import java.util.Random;
  * a driver/main class which incorporates the {@link Stats} class.
  * 
  * @author peppered66
- * 
  */
 public class Driver {
 	/**

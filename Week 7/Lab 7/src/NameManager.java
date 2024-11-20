@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Manages a List of names
  * 
- * @author peppered
+ * @author peppered66
  *
  */
 public class NameManager {
